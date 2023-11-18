@@ -1,0 +1,17 @@
+yume_ebina@yume-ebina ~ % mkdir git_challenge
+yume_ebina@yume-ebina ~ % cd git_challenge
+yume_ebina@yume-ebina git_challenge % git init
+Initialized empty Git repository in /Users/yume_ebina/git_challenge/.git/
+yume_ebina@yume-ebina git_challenge % touch hello_world.txt
+yume_ebina@yume-ebina git_challenge % git add hello_world.txt
+yume_ebina@yume-ebina git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 0d42262] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yume_ebina@yume-ebina git_challenge % git add hello_world.txt
+yume_ebina@yume-ebina git_challenge % git commit -m "日本語訳を追記"
+[main c282bd5] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yume_ebina@yume-ebina git_challenge % git log --oneline
+c282bd5 (HEAD -> main) 日本語訳を追記
+0d42262 hello_world.txtを追加
